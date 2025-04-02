@@ -1,0 +1,23 @@
+{
+  "name": "nodejss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniket8699/nodejss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aniket8699/nodejss/issues"
+  },
+  "homepage": "https://github.com/Aniket8699/nodejss#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
