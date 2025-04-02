@@ -1,10 +1,7 @@
 import express from 'express'
 
 const app = express()
-
-app.get('/', (req, res) => {
-  res.send('Hello World')
-})
+app.use("/",express.static('/htmlweb'))
 app.get('/about', (req, res) => {
     res.send('<h2>My About Page</h2>')
   })
